@@ -3,7 +3,7 @@ function Header() {
     <header>
       <nav>
         <a href="/" className="logo">
-          <img src="src/assets/logo.png" alt="Logo Web" />
+          <img src="logo.png" alt="Logo Web" />
         </a>
         <ul className="nav-links">
           <li>
@@ -25,7 +25,7 @@ function Header() {
             <span>Azril Fahmiardi</span>
             <span>lv. 14</span>
           </div>
-          <img src="src/assets/profil.jpg" alt="profil" />
+          <img src="profil.jpg" alt="profil" />
         </a>
       </nav>
     </header>

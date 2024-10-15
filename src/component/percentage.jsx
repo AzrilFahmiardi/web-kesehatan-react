@@ -2,7 +2,7 @@ function Percentage() {
   return (
     <div className="percentage">
       <button className="percentage-button previous">
-        <img src="assets/previous.png" alt="" />
+        <img src="previous.png" alt="" />
       </button>
       <div className="percentage-rect">
         <div className="circle-container">
@@ -17,7 +17,7 @@ function Percentage() {
         </div>
       </div>
       <button className="percentage-button next">
-        <img src="assets/next2.png" alt="" />
+        <img src="next2.png" alt="" />
       </button>
     </div>
   );

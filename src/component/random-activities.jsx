@@ -32,7 +32,7 @@ function RandomActivities() {
             {randomActivities.map((activity) => (
               <li key={activity.id}>
                 <button id={`rand-${activity.id}`}>
-                  <img src="src/assets/plus.png" alt="Add activity" />
+                  <img src="plus.png" alt="Add activity" />
                 </button>
                 <label htmlFor={`rand-${activity.id}`}>{activity.name}</label>
               </li>
