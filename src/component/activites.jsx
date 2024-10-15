@@ -10,9 +10,11 @@ function Activities() {
 
   const fetchData = async () => {
     try {
-      const activitiesResponse = await axios.get("http://localhost:5000/activities");
+      const activitiesResponse = await axios.get("https://web-kesehatan-react.onrender.com/random-activities");
       setActivities(activitiesResponse.data);
     } catch (error) {
+      const activitiesResponse = await axios.get("http://localhost:5000/activities");
+      setActivities(activitiesResponse.data);
       console.error("Error fetching data:", error);
     }
   };

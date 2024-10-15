@@ -10,9 +10,11 @@ function HealthFacts() {
 
   const fetchData = async () => {
     try {
-      const healthFactsResponse = await axios.get("http://localhost:5000/health-facts");
+      const healthFactsResponse = await axios.get("https://web-kesehatan-react.onrender.com/health-facts");
       setHealthFacts(healthFactsResponse.data);
     } catch (error) {
+      const healthFactsResponse = await axios.get("http://localhost:5000/health-facts");
+      setHealthFacts(healthFactsResponse.data);
       console.error("Error fetching data:", error);
     }
   };
